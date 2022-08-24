@@ -82,7 +82,7 @@ body {
   content: "";
   width: 10px;
   height: 84%;
-  background: #96cbc4;
+  background: #607eaa;
   position: absolute;
   right: 0;
   top: 4px;
@@ -142,7 +142,6 @@ body {
 .header-c {
   font-size: 31px;
   margin: 0 auto 20px;
-  padding-bottom: 10px;
 }
 
 .info-logo {
@@ -184,7 +183,9 @@ body {
   color: #fff;
   line-height: 1.5;
 }
-
+.f-intro i {
+  font-style: normal;
+}
 .custom-field {
   border-radius: 5px;
   width: 100%;
@@ -327,7 +328,7 @@ footer {
   text-align: center;
   background-size: cover;
   color: white;
-  background: linear-gradient(145deg, #eb77cd, #ff8fb1, #ffafc7);
+  background-color: #607eaa;
 }
 
 .features .title {
@@ -350,7 +351,6 @@ footer {
   font-size: 35px;
   margin-bottom: 15px;
   margin-top: 10px;
-  color: #05326a;
   position: relative;
   width: fit-content;
   margin-right: auto;
@@ -363,12 +363,12 @@ footer {
   content: "\f1ad";
   font-family: "Font Awesome 5 Free";
   -webkit-font-smoothing: antialiased;
-  font-weight: 100;
+  font-weight: 900;
   font-style: normal;
   font-variant: normal;
   text-rendering: auto;
   line-height: 1;
-  color: #28074e;
+  color: #fdfdfd;
   display: inline-block;
   font-size: 24px;
   position: relative;
@@ -386,7 +386,7 @@ footer {
   position: relative;
   background-color: white;
   padding: 7px 50px;
-  border-radius: 10px;
+  border-radius: 3px;
   color: #171717;
 }
 .features-content h3::before {
@@ -429,7 +429,7 @@ footer {
   margin-top: 20px;
   padding: 0 5vw;
   text-align: justify;
-  color: #180042;
+  color: whitesmoke;
 }
 .features-content li {
   font-size: 16px;
@@ -512,8 +512,8 @@ footer {
   justify-content: space-evenly;
 }
 .features:hover .design img {
-  transform: rotate(-13deg);
-  -webkit-transition: all 1.5s ease-in-out;
+  /* transform: rotate(-13deg);
+  -webkit-transition: all 1.5s ease-in-out; */
 }
 .company-info {
   margin-top: 30px !important;
@@ -531,12 +531,12 @@ footer {
   width: fit-content;
   margin-right: auto;
   margin-left: auto;
-  color: #eff0f1;
+  color: whitesmoke;
   margin-bottom: 25px;
   background-color: #3cff93b8;
-  padding: 7px 10px;
-  padding-bottom: 5px;
-  border-radius: 5px;
+  padding: 7px 20px;
+  padding-bottom: 2px;
+  border-radius: 3px;
 }
 .goals-header::before {
   content: "\f14a";
@@ -612,6 +612,9 @@ footer {
   }
 }
 @media (min-width: 900px) {
+  .header-c {
+    padding-bottom: 10px;
+  }
   .features-header {
     font-size: 44px;
   }

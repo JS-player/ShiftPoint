@@ -40,6 +40,7 @@
     line-height: 1.9;
     padding-bottom: 0px !important;
   }
+
   .footer-p {
     font-size: 14px;
   }
@@ -123,6 +124,9 @@
   .f-intro {
     font-size: 20px;
   }
+  .f-intro i {
+    font-size: 24px;
+  }
   .send-data {
     width: 100%;
   }
@@ -187,6 +191,9 @@
 
   .f-intro {
     font-size: 3.3vw;
+  }
+  .f-intro i {
+    font-size: 4.3vw;
   }
   .last-img {
     margin: 3vw auto;
